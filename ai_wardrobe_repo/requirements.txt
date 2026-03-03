@@ -1,0 +1,11 @@
+numpy
+pydantic
+Pillow
+opencv-python
+torch
+torchvision
+torchaudio
+transformers
+ultralytics
+google-generativeai
+git+https://github.com/facebookresearch/sam2.git

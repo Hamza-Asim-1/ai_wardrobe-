@@ -1,0 +1,467 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "item",
+      "main_category": "Tops",
+      "subcategory": "Basic T-shirt",
+      "formality": "Casual",
+      "style_tags": "[\"Casual\", \"Modern\"]",
+      "colors": "[\"vibrant purple\"]",
+      "seasons": "[\"All-Season\"]",
+      "occasions": "[\"Casual Outing\"]",
+      "pattern": "Solid",
+      "material": "Cotton",
+      "id": "2a4e51fa-41ef-4385-9476-56e2833df4b9"
+    },
+    {
+      "node_type": "category",
+      "id": "Tops"
+    },
+    {
+      "node_type": "style",
+      "name": "Casual",
+      "id": "style:Casual"
+    },
+    {
+      "node_type": "style",
+      "name": "Modern",
+      "id": "style:Modern"
+    },
+    {
+      "node_type": "occasion",
+      "name": "Casual Outing",
+      "id": "occasion:Casual Outing"
+    },
+    {
+      "node_type": "item",
+      "main_category": "Tops",
+      "subcategory": "Basic T-shirt",
+      "formality": "Casual",
+      "style_tags": "[\"Casual\", \"Modern\"]",
+      "colors": "[\"purple\"]",
+      "seasons": "[\"All-Season\"]",
+      "occasions": "[\"Casual Outing\", \"Everyday Wear\"]",
+      "pattern": "Solid",
+      "material": "Cotton",
+      "id": "2bf5dd93-1e5f-44fe-a195-9513352ec173"
+    },
+    {
+      "node_type": "occasion",
+      "name": "Everyday Wear",
+      "id": "occasion:Everyday Wear"
+    },
+    {
+      "node_type": "item",
+      "main_category": "Tops",
+      "subcategory": "Crew Neck T-Shirt",
+      "formality": "Casual",
+      "style_tags": "[\"Minimalism\", \"Casual\", \"Modern\", \"Athleisure\"]",
+      "colors": "[\"black\"]",
+      "seasons": "[\"All-Season\"]",
+      "occasions": "[\"Casual Outing\", \"Athleisure\", \"Everyday Wear\"]",
+      "pattern": "Solid",
+      "material": "Polyester",
+      "id": "4caea5f9-ecb4-44a9-b698-e81f892f5371"
+    },
+    {
+      "node_type": "style",
+      "name": "Minimalism",
+      "id": "style:Minimalism"
+    },
+    {
+      "node_type": "style",
+      "name": "Athleisure",
+      "id": "style:Athleisure"
+    },
+    {
+      "node_type": "occasion",
+      "name": "Athleisure",
+      "id": "occasion:Athleisure"
+    },
+    {
+      "node_type": "item",
+      "main_category": "Bottoms",
+      "subcategory": "Chino Pants",
+      "formality": "Casual",
+      "style_tags": "[\"Casual\", \"Modern\", \"Preppy\"]",
+      "colors": "[\"khaki\"]",
+      "seasons": "[\"Spring\", \"Summer\", \"Fall\", \"All-Season\"]",
+      "occasions": "[\"Casual Outing\", \"Everyday Wear\", \"Office\"]",
+      "pattern": "Solid",
+      "material": "Cotton",
+      "id": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "node_type": "category",
+      "id": "Bottoms"
+    },
+    {
+      "node_type": "style",
+      "name": "Preppy",
+      "id": "style:Preppy"
+    },
+    {
+      "node_type": "occasion",
+      "name": "Office",
+      "id": "occasion:Office"
+    },
+    {
+      "node_type": "item",
+      "main_category": "Bottoms",
+      "subcategory": "Chino Pants",
+      "formality": "Casual",
+      "style_tags": "[\"Casual\", \"Modern\"]",
+      "colors": "[\"khaki\"]",
+      "seasons": "[\"All-Season\"]",
+      "occasions": "[\"Casual Outing\", \"Office\"]",
+      "pattern": "Solid",
+      "material": "Cotton",
+      "id": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "node_type": "item",
+      "main_category": "Bottoms",
+      "subcategory": "Chino Pants",
+      "formality": "Smart Casual",
+      "style_tags": "[\"Casual\", \"Modern\", \"Athleisure\"]",
+      "colors": "[\"black\"]",
+      "seasons": "[\"All-Season\"]",
+      "occasions": "[\"Office\", \"Casual Outing\", \"Travel\"]",
+      "pattern": "Solid",
+      "material": "Polyester",
+      "id": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "node_type": "occasion",
+      "name": "Travel",
+      "id": "occasion:Travel"
+    },
+    {
+      "node_type": "item",
+      "main_category": "Bottoms",
+      "subcategory": "Slim Fit Chinos",
+      "formality": "Smart Casual",
+      "style_tags": "[\"Modern\", \"Casual\", \"Smart Casual\", \"Athleisure\"]",
+      "colors": "[\"black\"]",
+      "seasons": "[\"All-Season\"]",
+      "occasions": "[\"Office\", \"Casual Outing\", \"Travel\"]",
+      "pattern": "Solid",
+      "material": "Polyester",
+      "id": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "node_type": "style",
+      "name": "Smart Casual",
+      "id": "style:Smart Casual"
+    }
+  ],
+  "links": [
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "Tops"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "style:Casual"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "style:Modern"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "occasion:Casual Outing"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"same_formality\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"same_formality\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2a4e51fa-41ef-4385-9476-56e2833df4b9",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "Tops",
+      "target": "2bf5dd93-1e5f-44fe-a195-9513352ec173"
+    },
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "Tops",
+      "target": "4caea5f9-ecb4-44a9-b698-e81f892f5371"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Casual",
+      "target": "2bf5dd93-1e5f-44fe-a195-9513352ec173"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Casual",
+      "target": "4caea5f9-ecb4-44a9-b698-e81f892f5371"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Casual",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Casual",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Casual",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Casual",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Modern",
+      "target": "2bf5dd93-1e5f-44fe-a195-9513352ec173"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Modern",
+      "target": "4caea5f9-ecb4-44a9-b698-e81f892f5371"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Modern",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Modern",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Modern",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Modern",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Casual Outing",
+      "target": "2bf5dd93-1e5f-44fe-a195-9513352ec173"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Casual Outing",
+      "target": "4caea5f9-ecb4-44a9-b698-e81f892f5371"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Casual Outing",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Casual Outing",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Casual Outing",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Casual Outing",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "2bf5dd93-1e5f-44fe-a195-9513352ec173",
+      "target": "occasion:Everyday Wear"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"same_formality\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2bf5dd93-1e5f-44fe-a195-9513352ec173",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"same_formality\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2bf5dd93-1e5f-44fe-a195-9513352ec173",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2bf5dd93-1e5f-44fe-a195-9513352ec173",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "2bf5dd93-1e5f-44fe-a195-9513352ec173",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Everyday Wear",
+      "target": "4caea5f9-ecb4-44a9-b698-e81f892f5371"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Everyday Wear",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "style:Minimalism"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "style:Athleisure"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "occasion:Athleisure"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"same_formality\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 5,
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Modern,Casual\", \"same_formality\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 5,
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Athleisure,Modern,Casual\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "PAIRS_WITH",
+      "reasons": "[\"complementary_categories\", \"shared_styles:Athleisure,Modern,Casual\", \"compatible_colors\", \"shared_season\"]",
+      "compatibility_score": 4,
+      "source": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Athleisure",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "style:Athleisure",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af",
+      "target": "Bottoms"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af",
+      "target": "style:Preppy"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "7baea4d7-4ba2-42e5-a5da-c207ed0fa3af",
+      "target": "occasion:Office"
+    },
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "Bottoms",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "Bottoms",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "BELONGS_TO_CATEGORY",
+      "source": "Bottoms",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Office",
+      "target": "a27e7124-4366-4397-b92c-3aac7b287322"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Office",
+      "target": "afdb2036-874b-4efb-9ab8-791734897f66"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Office",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "afdb2036-874b-4efb-9ab8-791734897f66",
+      "target": "occasion:Travel"
+    },
+    {
+      "relation": "SUITABLE_FOR",
+      "source": "occasion:Travel",
+      "target": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf"
+    },
+    {
+      "relation": "HAS_STYLE",
+      "source": "e48fd9a7-4cf3-4d67-9e44-07f4a24473cf",
+      "target": "style:Smart Casual"
+    }
+  ]
+}

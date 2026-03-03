@@ -1,0 +1,103 @@
+{
+  "query": "I want to wear something casual",
+  "intent": {
+    "style": "Casual",
+    "occasion": "Everyday Wear",
+    "formality": "Casual",
+    "season": null,
+    "color_preference": null,
+    "category": null,
+    "mood": "relaxed"
+  },
+  "num_candidates": 7,
+  "candidates": [
+    {
+      "item_id": "a27e7124",
+      "score": 1.804,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    },
+    {
+      "item_id": "7baea4d7",
+      "score": 1.793,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    },
+    {
+      "item_id": "e48fd9a7",
+      "score": 1.682,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    },
+    {
+      "item_id": "afdb2036",
+      "score": 1.68,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    },
+    {
+      "item_id": "4caea5f9",
+      "score": 1.492,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    },
+    {
+      "item_id": "2a4e51fa",
+      "score": 1.299,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    },
+    {
+      "item_id": "2bf5dd93",
+      "score": 1.298,
+      "sources": [
+        "vector_search",
+        "graph_filter",
+        "graph_expansion"
+      ]
+    }
+  ],
+  "outfit": {
+    "outfit_name": "Modern Casual Comfort",
+    "selected_items": [
+      {
+        "item_id": "a27e7124-4366-4397-b92c-3aac7b287322",
+        "category": "Bottoms",
+        "subcategory": "Chino Pants",
+        "role": "bottom"
+      },
+      {
+        "item_id": "4caea5f9-ecb4-44a9-b698-e81f892f5371",
+        "category": "Tops",
+        "subcategory": "Crew Neck T-Shirt",
+        "role": "base layer"
+      }
+    ],
+    "styling_notes": "This outfit combines classic khaki chino pants with a modern black crew neck t-shirt for a comfortably stylish and versatile casual look. The clean lines and neutral colors make it effortlessly put-together for everyday wear.",
+    "color_story": "A grounded and versatile palette featuring classic khaki and sleek black, offering a timeless and effortlessly chic casual appeal.",
+    "missing_pieces": [
+      "Shoes",
+      "Belt",
+      "Watch"
+    ],
+    "confidence": 1.0
+  }
+}
